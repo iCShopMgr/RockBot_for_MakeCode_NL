@@ -30,7 +30,7 @@ function Servo_angle (Servo_ch: number, Degree:number) {
 /**
  * RockBot
  */
-//% weight=0 color=#dbb502 icon=""
+//% weight=0 color=#dbb502 icon="\uf0b2" block="rockbot"
 namespace rockbot {
     export enum Direction {
         //% block="Move_forward"

@@ -246,7 +246,7 @@ namespace rockbot {
         //% block="HIGH"
         STATE1 = 1,
         //% block="LOW"
-        STATE2 = 2
+        STATE2 = 0
     }
 
     //% blockId=IO_digital_write block="Digital Write %choose set velue %voltage"

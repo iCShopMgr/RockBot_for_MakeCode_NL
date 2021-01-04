@@ -1,0 +1,15 @@
+{
+    "name": "rockbot",
+    "version": "1.0",
+    "description": "rockbot with micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/rockbot-strings.json"
+    ],
+    "public": true
+}

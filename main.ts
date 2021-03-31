@@ -1,8 +1,8 @@
 let buf = pins.createBuffer(2);
 
-let ultrasonic_buf = pins.createBuffer(1)
-ultrasonic_buf[0] = 0x01
-let ultrasonic_data, ultrasonic_read1, ultrasonic_read2, ultrasonic_read3
+//let ultrasonic_buf = pins.createBuffer(1)
+//ultrasonic_buf[0] = 0x01
+//let ultrasonic_data, ultrasonic_read1, ultrasonic_read2, ultrasonic_read3
 
 function Move_direction (Speed1: number, Speed2: number, Speed3: number, Speed4: number) {
 	buf[0]=0x00;
@@ -228,7 +228,7 @@ namespace rockbot {
         }
         ws2812b.sendBuffer(neopixel_buf, DigitalPin.P12)
     }
-	
+	/*
 	//% blockId=M5_ultrasonic block="M5 Ultrasonic"
     //% weight=5
     export function M5_ultrasonic(): number {
@@ -242,7 +242,7 @@ namespace rockbot {
         ultrasonic_read3 = ultrasonic_read2/10000
         return ultrasonic_read3;
     }
-
+	*/
     export enum IO_PORT {
         //% block="IO1(P1)"
         IO1 = 1,

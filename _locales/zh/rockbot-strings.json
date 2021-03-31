@@ -23,7 +23,7 @@
     "rockbot.rgb_led_show|block": "RGB LED |%led_ch_ 顯示顏色 |%rgb",
     "rockbot.rgb_led_set_RGB|block": "紅色|%r 綠色|%g 藍色|%b",
     "rockbot.rgb_led_clear|block": "關閉 RGB LED",
-    "rockbot.M5_ultrasonic|block": "M5 超音波感測器",
+    //"rockbot.M5_ultrasonic|block": "M5 超音波感測器",
     "rockbot.IO_PORT.IO1|block": "IO1(P1)",
     "rockbot.IO_PORT.IO2|block": "IO2(P2)",
     "rockbot.IO_PORT.IO3|block": "IO3(P8)",

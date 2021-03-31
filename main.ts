@@ -229,8 +229,6 @@ namespace rockbot {
         ws2812b.sendBuffer(neopixel_buf, DigitalPin.P12)
     }
 	/*
-	//% blockId=M5_ultrasonic block="M5 Ultrasonic"
-    //% weight=5
     export function M5_ultrasonic(): number {
         pins.i2cWriteBuffer(0x57, ultrasonic_buf)
         basic.pause(120)

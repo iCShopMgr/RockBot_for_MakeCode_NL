@@ -4,7 +4,7 @@
     "description": "rockbot with micro:bit",
     "license": "MIT",
     "dependencies": {
-        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1"
+
     },
     "files": [
         "README.md",
